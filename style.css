@@ -1,7 +1,7 @@
 /* ============================
             google Font  
 =============================*/
-\@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 
 
@@ -61,7 +61,7 @@ body{
 }
 .header-item h1{
     font-size: 64px;
-    line-height: .5em;
+    line-height: 1.5em;
     color: #FFFFFF;
 }
 .header-item img{
