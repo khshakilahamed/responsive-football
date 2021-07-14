@@ -1,14 +1,14 @@
-/* ============================
-            google Font  
-=============================*/
+/* =============================================
+                    google Font  
+================================================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 
 
-/* ============================
-            common style 
-===============================*/
+/* =============================================
+                    common style 
+=============================================*/
 *{
     margin: 0;
     padding: 0;
@@ -24,21 +24,23 @@
     color:#6C6C6C;
 }
 
+/*XXXXXXXXXXXXXXX common style End XXXXXXXXXXXXXXX*/
 
-/* ===========================
-            body style  
-==============================*/
+
+
+/* =============================================
+                     body style  
+=============================================*/
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
 
-/* ===========================
-            Header Styles 
-==============================*/
 
-
+/* =============================================
+                    Header Styles 
+=============================================*/
 .header-items{
     background-color: #2D25A0;
     width: 100%;
@@ -85,10 +87,13 @@ body{
     width: 100%;
 }
 
+/*XXXXXXXXXXXX Header styles End XXXXXXXXXXXXXXX*/
 
-/*--------------------------- 
-        Main section  
------------------------------*/
+
+
+/*=============================================
+                 Main section styles
+=============================================*/
 .blogs{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -111,7 +116,7 @@ body{
     font-size: 16px;
 }
 
-/* extra section-1/ copa fine  */
+/*------------ extra section-1/ copa final ---------*/
 
 .copa-final{
     width: 1100px;
@@ -141,7 +146,7 @@ body{
     text-align: justify;
 }
 
-/* extra section -2/ photo album */
+/*---------- extra section -2/ photo album -------------*/
 .champions{
     width: 1100px;
 }
@@ -156,10 +161,15 @@ body{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 } 
 
+/*XXXXXXXXXXXX  Header styles End  XXXXXXXXXXXXXXX*/
 
-/*============================ 
-        footer Styles 
-==============================*/
+
+
+
+
+/*=============================================
+                Footer Styles 
+=============================================*/
 .footer-items{
     display: block;
     justify-content: center;
@@ -183,14 +193,20 @@ body{
     text-align: center;
 }
 
+/*XXXXXXXXXXXX Footer styles End   XXXXXXXXXXXXXXX*/
 
-/*--------------------------
-    Media Query 
----------------------------*/
- /* for mobile  */
+
+
+
+/*===================================================
+                        Media Query 
+=====================================================*/
+ /*----------------- for mobile  --------------------*/
 @media only screen and (max-width: 600px) {
     .container{
         display: block;
+        max-width: 100% !important;
+        overflow-x: hidden !important;
     }
 
     /* header  */
@@ -209,22 +225,16 @@ body{
         height: 259.17px;   
     }
 
-    /* Main section  */
+    /*-------------------- Main section -----------------*/
     .blogs{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
 
-    /* extra section 1  */
+    /*------------------ extra section 1 ----------------- */
     .container h2{
         text-align: center;
     }
-    /* .copa-final{
-        display: block;
-        grid-template-columns: repeat(1, 1fr);
-        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);      
-        margin-bottom: 80px;
-    } */
     .copa-final{
         width: 300px;
         display: block;
@@ -250,7 +260,7 @@ body{
         height: 100%;
     }
 
-    /* extra section 2 */
+    /* ---------------- extra section 2----------------- */
     .champions{
         margin-top: 10px;
         width: 100%;
@@ -261,7 +271,7 @@ body{
     }
 
 
-    /* footer  */
+    /*-------------------- footer---------------------- */
     .footer-items{
         width: 100%;
         text-align: center;
@@ -288,12 +298,9 @@ body{
     .footer-items .copyright{
         text-align: center;
     }
-
-
     .copyright p{
         font-size: 18px;
     }
-
-
-
  }
+
+ /*XXXXXXXXXXXX Media Query End XXXXXXXXXXXXXXX*/
