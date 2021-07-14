@@ -109,6 +109,9 @@ body{
 .thumbnail img{
     width: 100%;
 }
+.blog-info{
+    text-align: start;
+}
 .blog .blog-info h2{
     margin: 10px 0;
 }
@@ -207,6 +210,7 @@ body{
         display: block;
         max-width: 100% !important;
         overflow-x: hidden !important;
+        margin-bottom: 20px;
     }
 
     /* header  */
@@ -229,6 +233,9 @@ body{
     .blogs{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .blog .blog-info h2{
+        text-align: start;
     }
 
     /*------------------ extra section 1 ----------------- */
@@ -258,6 +265,11 @@ body{
         left: 0;
         width: 100%;
         height: 100%;
+    }
+
+    .final-info{
+        text-align: start;
+        padding-left: 10px;
     }
 
     /* ---------------- extra section 2----------------- */
