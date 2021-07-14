@@ -122,14 +122,16 @@ body{
     margin-bottom: 80px;
 }
 
+.copa-final-items{
+    width: 50%;
+}
+
 .copa-final-items iframe{
     width: 560px;
     height: 315px;
 }
 
-.copa-final-items{
-    width: 50%;
-}
+
 .highlight-video{
     width: 100%;
 }
