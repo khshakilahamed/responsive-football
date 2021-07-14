@@ -48,9 +48,6 @@ body{
     align-items: center;
     margin-bottom: 50px;
 }
-.header-items:hover{
-    transition: all 0.5s ease-in;
-}
 .header-item{
     width: 556.01px;
     height: 438px;
@@ -74,6 +71,7 @@ body{
 .header-item button:hover {
     color: indianred;
     background-color: #FFFFFF;
+    transition: all 0.3s ease-in;
 }
 .header-item button i{
     padding-left: 10px;
