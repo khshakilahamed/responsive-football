@@ -60,15 +60,20 @@ body{
 .header-item .extra-pad{
     padding-top: 50px;
 }
+.header-item a{
+    text-decoration: none;
+}
 .header-item button{
     font-size: 16px;
     color: #FFFFFF;
     background-color: #E02C6D;
     padding: 10px 24px;
     border: none;
+    transition: button 2s ease-in;
 }
-.header-item:hover button{
-    transition: rotate(180deg) 1s;
+.header-item button:hover {
+    color: indianred;
+    background-color: #FFFFFF;
 }
 .header-item button i{
     padding-left: 10px;
